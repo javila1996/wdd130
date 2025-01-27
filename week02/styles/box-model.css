@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 .callout {
     max-width: 400px;
     margin: 10px;
@@ -26,4 +28,10 @@ cite {
     border-top: 1px dotted #fff;
     text-align: right;
     font-size: smaller;
+}
+body{
+    font-family: "Rock Salt",Helvetica, sans-sarif;
+}
+h1{
+    font-family: "Arial Black";
 }
