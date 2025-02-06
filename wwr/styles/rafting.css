@@ -97,7 +97,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: var(--primary-colo);
-    box-shadow: auto;
+    box-shadow: none;
 }
 nav{
     display: flex;
