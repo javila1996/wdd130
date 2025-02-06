@@ -15,7 +15,7 @@ div.hero {
 }
 
 h1 {
-    color: var(--primary-color);
+    color: var(--accent-color-2);
     padding: 0px;
     text-align: center;
     font-size: 80px;
