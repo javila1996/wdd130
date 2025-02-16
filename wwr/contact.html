@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page | WDD 130</title>
+        <meta name="description" content="This is a whitewater rafting company contact page">
+        <meta name="author" content="Josue Avila">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/rafitng-site-logo.jpg" alt="Rafting Site Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="images/hero-image.webp" alt="Hero image" style="width: 100%; height: auto;">
+                <h1>Contact Us</h1>
+            </div>
+            <article>
+                <p>Call us: 801-123-4567</p>
+                <p>Email us: raftingemailsample@email.com</p>
+                <p>Come Visit us</p>
+                <article>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27508.335907395904!2d-109.56012504771755!3d38.582228610532916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1739658623462!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+                <div class="container">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label>Purpose of Message:</label>
+                        <div class="radio-group">
+                            <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+            
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+            
+                        <div>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
+            
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="guides">
+                    <div class="guides">
+                        <div class="guide">
+                            <img src="images/employee1.webp" alt="employee 1">
+                            <p>Rafting Guide Samantha</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quod quisquam, odio exercitationem aut molestiae illo ab soluta? Modi fugit suscipit quae ut error mollitia labore at quo porro sequi?</p>
+                        </div>
+                        <div class="guide">
+                            <img src="images/employee2.webp" alt="employee 2">
+                            <p>Rafting Guide James</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati culpa, illo magnam assumenda suscipit quia impedit eveniet laboriosam eius, repudiandae necessitatibus esse enim, maxime iste ut officiis nesciunt nobis consequuntur.</p>
+                        </div>
+                        <div class="guide">
+                            <img src="images/employee3.webp" alt="employee 3">
+                            <p>Rafting Guide Peter</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error mollitia unde dolores itaque, fugiat nobis ea eius consequatur corporis, sequi totam nemo ad, modi quaerat laborum! Quo, voluptatum doloribus? Earum.</p>
+                        </div>
+                 </div>
+            </article>
+        </main>
+        <footer>
+            <p>&copy; 2025 Whitewater Rafting Bros. | Josue Avila</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook-icon.webp" alt="Facebook">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram-icon.webp" alt="Instagram">
+                </a>   
+                <a href="https://x.com">
+                    <img src="images/x-icon.webp" alt="X">
+                </a>
+                <a href="https://app.moqups.com/cUmUK9joCqmJHFpAd2Gxj8mSVUtPs1IS/view/page/ad64222d5">
+                    <img src="images/wireframe.webp" alt="wireframe icon">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
