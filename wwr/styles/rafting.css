@@ -223,6 +223,7 @@ label {
     font-weight: bold;
     display: block;
     margin-top: 10px;
+    color: var(--accent-color-2)
 }
 
 input, textarea {
