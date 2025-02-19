@@ -15,7 +15,7 @@ div.hero {
 }
 
 h1 {
-    color: var(--accent-color-2);
+    color: white;
     padding: 0px;
     text-align: center;
     font-size: 80px;
@@ -43,7 +43,7 @@ h1 {
     position: absolute;
     background: none;
     top: 50%;
-    background-color: var(--secondary-color);
+    background-color: wheat;
     opacity: 80%;
 }
 
@@ -64,7 +64,7 @@ h2 {
 }
 
 p {
-    color: var(--accent-color-1);
+    color: white;
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
@@ -72,16 +72,36 @@ p {
     background: none;
 }
 footer {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    color: white;
+    border-top: 4px solid #D7B377;
+}
+
+footer p {
     text-align: center;
+    flex-grow: 1;
 }
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .sociallinks a {
-    text-decoration: none;
-    display: inline;
+    margin-left: 10px;
 }
+
 .sociallinks img {
-    max-width: 40px;
-    max-height: 40px;
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+}
+
+.sociallinks img:hover {
+    transform: scale(1.2);
 }
 header {
     position: relative;
@@ -298,4 +318,339 @@ body {
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.rafting-adventures-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rafting-adventures {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+}
+
+.rafting-adventures img {
+    width: 80%;
+    height: 80;
+    display: block;
+}
+.newsletter {
+    background-color: var(--primary-color); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.newsletter .Heading {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    background-color: var(--secondary-color);
+}
+
+.newsletter .user-info {
+    margin-bottom: 15px;
+}
+
+.newsletter input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    width: calc(100% - 22px);
+    border: 1px solid #385F71;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #D7B377;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.newsletter button:hover {
+    background-color: #F5F0F6;
+    color: #2B4162;
+}
+.call-to-action {
+    background-color: #385F71;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    text-align: center;
+    width: 80%; 
+    max-width: 700px; 
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #D7B377;
+}
+
+.call-to-action p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.call-to-action nav #ctr a {
+    background-color: #D7B377;
+    padding: 12px 30px;
+    border-radius: 25px;
+    color: #2B4162;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.call-to-action nav #ctr a:hover {
+    background-color: #F5F0F6;
+    color: #2B4162;
+    transform: scale(1.05);
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+article p {
+    font-size: 1.1em;
+    color: #2B4162;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #385F71;
+}
+
+.map {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form  request-form{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10 10px 10px var(--accent-color-2);
+    width: 100%;
+    max-width: 600px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: var(--accent-color-2);
+}
+
+form input,
+form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #D7B377;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #D7B377;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #2B4162;
+    color: white;
+}
+.guides {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.guide {
+    text-align: center;
+    width: 30%;
+    background-color: #F5F0F6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guide img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.guide p {
+    font-size: 1.1em;
+    color: #385F71;
+    margin-bottom: 10px;
+}
+
+.guide p:last-child {
+    font-size: 0.9em;
+    color: #2B4162;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .guides {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guide {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+.call-to-action {
+    color: #F5F0F6;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.call-to-action p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contact-button button {
+    background-color: #D7B377;
+    color: #2B4162;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    max-width: 200px;
+}
+
+.contact-button button:hover {
+    background-color: #385F71;
+    transform: scale(1.05);
+}
+
+.rapids {
+    align-items: center;
+    gap: 15px;
+    max-width: 600px; 
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.rapids img {
+    width: 50%;
+    max-width: 200px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+}
+
+.rapids p {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.rapids-pricing {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color:white
+}
+
+.rapids-pricing h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    width: 775px;
+}
+
+table {
+    width: 97%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary-color);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--accent-color-2);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--accent-color-1);
 }
