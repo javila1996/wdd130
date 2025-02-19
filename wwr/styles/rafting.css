@@ -56,7 +56,7 @@ article img {
 }
 
 h2 {
-    color: var(--accent-color-2);
+    color: white;
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
@@ -238,6 +238,9 @@ nav a {
     box-shadow: 0px 0px 10px;
     width: 350px;
 }
+#turn-in {
+    color: var(--primary-color);
+}
 
 label {
     font-weight: bold;
@@ -366,7 +369,7 @@ body {
 
 .newsletter button {
     background-color: #D7B377;
-    color: white;
+    color: var(--primary-color);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -425,7 +428,6 @@ body {
 
 article p {
     font-size: 1.1em;
-    color: #2B4162;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -627,7 +629,7 @@ form button:hover {
 }
 
 .rapids-pricing h2 {
-    color: var(--primary-color);
+    color: white;
     margin-bottom: 15px;
     width: 775px;
 }
@@ -653,4 +655,7 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
     background-color: var(--accent-color-1);
+}
+.contact-info {
+    color: white;
 }
