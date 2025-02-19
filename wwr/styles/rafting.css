@@ -335,7 +335,7 @@ body {
 
 .rafting-adventures img {
     width: 80%;
-    height: 80;
+    height: 80px;
     display: block;
 }
 .newsletter {
@@ -453,7 +453,7 @@ article h2 {
 .form  request-form{
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 10 10px 10px var(--accent-color-2);
+    box-shadow: 10px 10px 10px var(--accent-color-2);
     width: 100%;
     max-width: 600px;
 }
